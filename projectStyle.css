@@ -24,34 +24,44 @@ h1, p {
 	padding: 0;
 }
 .aboutMe {
-  padding: 20px;
+
 }
 
 .aboutMeContent {
 	background: #0c192c;
+	padding-bottom: 200px;
+	padding-top: 100px;
 	
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .aboutMeText {
-  flex: 1;
-  text-align: center;
+	flex: 1;
+	text-align: left;
 }
 
 .aboutMeImage {
-  flex: 1;
-  text-align: center;
+	flex: 1;
+	text-align: center;
 }
 .aboutMeImage img{
 	max-width: 300px; 
-  max-height: 300px;
+	max-height: 300px;
 }
 
 .aboutMe h1, .aboutMe p {
-  color: white;
-  font-family: "Titillium Web", Source Sans Pro, sans-serif;
+	color: white;
+	font-family: "Titillium Web", Source Sans Pro, sans-serif;
+	padding-left: 200px;
+}
+.aboutMe p{
+	padding-top: 20px;
+	font-size: 24px;
+}
+.aboutMe h1{
+	font-size: 60px;
 }
 .portrait-otherInfo{
 	width: 30%;
