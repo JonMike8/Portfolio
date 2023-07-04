@@ -17,15 +17,6 @@ body{
 	margin: 0;
 	padding: 0;
 }
-h1, p {
-	color: white;
-	font-family: "Titillium Web", Source Sans Pro, sans-serif;
-	margin: 0;
-	padding: 0;
-}
-.aboutMe {
-
-}
 
 .aboutMeContent {
 	background: #0c192c;
@@ -109,4 +100,23 @@ h1, p {
 	max-height: 200px;
 	object-fit: cover;
 	border-radius: 5px;
+}
+/*Icon css below*/
+.socialIcons-list{
+	list-style-type: none; /*hide bullet points*/
+	display: flex;
+	justify-content: space-between;
+	padding-left: 200px;
+}
+.socialIcons-list li{
+	display: inline-block;
+}
+.icon{
+	color: white;
+	font-size: 40px;
+	transition: color 0.2s;
+}
+.icon:hover{
+	color: gray;
+	cursor: pointer;
 }
