@@ -17,6 +17,27 @@ body{
 	margin: 0;
 	padding: 0;
 }
+.navbar{
+	background:gray;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+.navbar a{
+	font-size: 40px;
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+	background-color: gray;
+	transition: background-color 0.3s, color 0.3s;
+	font-family: "Titillium Web", Source Sans Pro, sans-serif;
+}
+.navbar a:hover, 
+.nvabar a:active{
+	background-color: white;
+	color: black;
+}
+	
 
 .aboutMeContent {
 	background: #0c192c;
