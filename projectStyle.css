@@ -19,13 +19,16 @@ body{
 }
 .navbar{
 	background:gray;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 16px;
+	padding-bottom: 16px;
 
 }
 .navbar a{
 	font-size: 40px;
-	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 16px;
+	padding-bottom: 16px;
 	text-decoration: none;
 	color: white;
 	background-color: gray;
