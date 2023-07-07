@@ -40,7 +40,7 @@ body{
 	background-color: white;
 	color: black;
 }
-	
+
 
 .aboutMeContent {
 	background: #0c192c;
@@ -189,5 +189,30 @@ body{
 .project:nth-child(even) a,
 .project:nth-child(even) p {
   color: white;
+}
+
+@media (max-width: 800px){
+	.aboutMeContent{
+		flex-direction: column;
+	}
+	.aboutMeText{
+		padding: 20px;
+		text-align: center;
+	}
+	.aboutMeText h1, p{
+		padding: 0px;
+	}
+	.aboutMeText p{
+		padding: 0px;
+	}
+	.socialIcons ul{
+		padding: 0px;
+	}
+	.project{
+		width: 100%
+	}
+	.project img:hover{
+		transform: scale(1.0);
+	}
 }
 
